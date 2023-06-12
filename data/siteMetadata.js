@@ -1,14 +1,14 @@
 const siteMetadata = {
   title: 'Devfolio - Jorge Perez',
   author: 'Jorge Perez',
-  headerTitle: 'JP',
+  headerTitle: 'Jorge Perez',
   description: 'A developer blog created with Next.js and Tailwind.css',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: '',
   siteRepo: '',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
+  image: '/static/images/about.jpg',
   socialBanner: '/static/images/twitter-card.png',
   email: 'hello@jperez.ca',
   github: 'https://github.com/JPerez00',
