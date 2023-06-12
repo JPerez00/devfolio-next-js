@@ -37,14 +37,13 @@ export default function Home({ posts }) {
           </p>
           <p className="pt-2 text-lg leading-7 text-gray-500 dark:text-gray-400">
             The more I try to learn, the more I realize how much I don't know. So I created this
-            developer portfolio site to try to document & showcase my process, progress & learnings
-            along the way.
+            portfolio/developer blog site to try to document & showcase my process, progress &
+            learnings along the way.
           </p>
           <p className="pt-2 text-lg leading-7 text-gray-500 dark:text-gray-400">
-            This particular site was created with <b>Next.js and Tailwind.css</b>, but you'll find
-            more in the projects page. I wanted to <b>combine my interest with useful skills</b>, so
-            I chose to present this site in a blog style/format. Down below you can find details of
-            how I built my projects.
+            This particular project was created with <b>Next.js and Tailwind.css</b>, but you'll
+            find more in the projects page. I chose to present this site in a blog format in order
+            to <b>combine my interest with useful skills</b>. Mergin <b>Writing, Media & Code</b>.
           </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
