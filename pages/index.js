@@ -4,8 +4,7 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
-
-import NewsletterForm from '@/components/NewsletterForm'
+import Image from '@/components/Image'
 
 const MAX_DISPLAY = 5
 
@@ -21,11 +20,31 @@ export default function Home({ posts }) {
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
+          <div className="flex pb-2 leading-7">
+            <Image
+              src="/static/images/about.jpg"
+              alt="me"
+              width={200}
+              height={200}
+              className="h-48 w-48 rounded-full"
+            />
+          </div>
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Latest
+            Hi, I'm Jorge —
           </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            {siteMetadata.description}
+          <p className="pt-1 text-2xl font-bold leading-7 text-gray-500 dark:text-gray-400">
+            A full-stack developer, writer & photographer based in Canada 🇨🇦
+          </p>
+          <p className="pt-2 text-lg leading-7 text-gray-500 dark:text-gray-400">
+            The more I try to learn, the more I realize how much I don't know. So I created this
+            developer portfolio site to try to document & showcase my process, progress & learnings
+            along the way.
+          </p>
+          <p className="pt-2 text-lg leading-7 text-gray-500 dark:text-gray-400">
+            This particular site was created with <b>Next.js and Tailwind.css</b>, but you'll find
+            more in the projects page. I wanted to <b>combine my interest with useful skills</b>, so
+            I chose to present this site in a blog style/format. Down below you can find details of
+            how I built my projects.
           </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -89,11 +108,6 @@ export default function Home({ posts }) {
           >
             All Posts &rarr;
           </Link>
-        </div>
-      )}
-      {siteMetadata.newsletter.provider !== '' && (
-        <div className="flex items-center justify-center pt-4">
-          <NewsletterForm />
         </div>
       )}
     </>
