@@ -1,8 +1,8 @@
 const projectsData = [
   {
-    title: 'Developer Portfolio',
+    title: 'DevFolio',
     description: `This very site that you're on. Created with Next.js & Tailwind.`,
-    imgSrc: '/static/images/google.png',
+    imgSrc: '/static/images/projects/next-js-blog.png',
     href: 'https://www.google.com',
   },
   {
@@ -14,7 +14,7 @@ const projectsData = [
   {
     title: 'Gumroad Digital Product - Solopreneur Template',
     description: `A minimalist personal website template. Created with Bootstrap 5.`,
-    imgSrc: '/static/images/projects/solopreneur.jpg',
+    imgSrc: '/static/images/projects/solo.jpg',
     href: '/blog/the-time-machine',
   },
   {
