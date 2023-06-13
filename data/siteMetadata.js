@@ -1,7 +1,7 @@
 const siteMetadata = {
-  title: 'DevFolio',
+  title: 'DevFolio - Jorge Perez',
   author: 'Jorge Perez',
-  headerTitle: 'Jorge Perez',
+  headerTitle: 'JP',
   description: 'A developer blog created with Next.js and Tailwind.css',
   language: 'en-us',
   theme: 'system', // system, dark or light
@@ -9,11 +9,11 @@ const siteMetadata = {
   siteRepo: '',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/about.jpg',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '/static/images/twitter-card.jpg',
   email: 'hello@jperez.ca',
   github: 'https://github.com/JPerez00',
   twitter: 'https://twitter.com/jperezverse',
-  facebook: '#',
+  facebook: '',
   youtube: 'https://www.youtube.com/@Jorge--Perez',
   linkedin: 'https://www.linkedin.com/in/jperez0/',
   locale: 'en-US',
