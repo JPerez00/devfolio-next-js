@@ -14,7 +14,12 @@ export default function Pagination({ totalPages, currentPage }) {
         )}
         {prevPage && (
           <Link href={currentPage - 1 === 1 ? `/blog/` : `/blog/page/${currentPage - 1}`}>
-            <button rel="previous">Previous</button>
+            <button
+              rel="previous"
+              className="bg-gradient-to-br from-rose-400 to-blue-500 bg-clip-text font-semibold text-transparent duration-300 ease-in-out hover:font-bold"
+            >
+              Previous
+            </button>
           </Link>
         )}
         <span>
@@ -27,7 +32,12 @@ export default function Pagination({ totalPages, currentPage }) {
         )}
         {nextPage && (
           <Link href={`/blog/page/${currentPage + 1}`}>
-            <button rel="next">Next</button>
+            <button
+              rel="next"
+              className="bg-gradient-to-br from-rose-400 to-blue-500 bg-clip-text font-semibold text-transparent duration-300 ease-in-out hover:font-bold"
+            >
+              Next
+            </button>
           </Link>
         )}
       </nav>
