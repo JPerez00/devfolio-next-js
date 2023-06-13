@@ -19,15 +19,6 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
         <div>
           <header>
             <div className="space-y-1 border-b border-gray-200 pb-10 text-center dark:border-gray-700">
-              <div className="">
-                <Image
-                  className="rounded-lg"
-                  src="/static/images/projects/treelink.jpg"
-                  width={1280}
-                  height={720}
-                  alt="New Features V1"
-                />
-              </div>
               <dl className="pt-6">
                 <div>
                   <dt className="sr-only">Published on</dt>
