@@ -23,12 +23,16 @@ module.exports = {
         12: '3rem',
         13: '3.25rem',
         14: '3.5rem',
+        15: '3.75rem',
+        16: '4rem',
+        17: '4.25rem',
+        18: '4.5rem',
       },
       fontFamily: {
         sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        primary: colors.teal,
+        primary: colors.purple,
         gray: colors.neutral,
       },
       typography: (theme) => ({

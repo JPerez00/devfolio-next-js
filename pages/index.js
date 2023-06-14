@@ -29,7 +29,7 @@ export default function Home({ posts }) {
               className="h-48 w-48 rounded-full"
             />
           </div>
-          <h1 className="bg-gradient-to-br from-rose-400 to-blue-500 bg-clip-text text-3xl font-extrabold leading-9 tracking-tight text-transparent sm:text-4xl sm:leading-10 md:text-6xl md:leading-tight">
+          <h1 className="bg-gradient-to-br from-rose-500 to-blue-500 bg-clip-text text-5xl font-extrabold leading-14 tracking-tight text-transparent sm:text-5xl sm:leading-12 md:text-6xl md:leading-18">
             Hi, I'm Jorge —
           </h1>
           <p className="pt-1 text-2xl font-bold leading-7 text-gray-500 dark:text-gray-300">
