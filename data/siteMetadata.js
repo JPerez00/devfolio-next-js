@@ -7,7 +7,7 @@ const siteMetadata = {
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.jorge-perez.dev/',
   siteRepo: '',
-  siteLogo: '/static/images/logo.png',
+  siteLogo: '/static/images/terminal.png',
   image: '/static/images/about.jpg',
   socialBanner: '/static/images/twitter-card.jpg',
   email: 'hello@jperez.ca',
