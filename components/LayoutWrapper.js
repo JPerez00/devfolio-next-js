@@ -34,7 +34,7 @@ const LayoutWrapper = ({ children }) => {
                 <Link
                   key={link.title}
                   href={link.href}
-                  className="bg-gradient-to-br from-rose-400 to-blue-500 bg-clip-text p-1 font-semibold text-transparent duration-300 ease-in-out hover:font-bold sm:p-4"
+                  className="bg-gradient-to-br from-rose-400 to-blue-500 bg-clip-text p-1 text-lg font-semibold text-transparent duration-300 ease-in-out hover:font-bold sm:p-4"
                 >
                   {link.title}
                 </Link>
