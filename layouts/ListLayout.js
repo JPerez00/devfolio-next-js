@@ -18,7 +18,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
 
   return (
     <>
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
+      <div className="divide-y divide-gray-300 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="bg-gradient-to-br from-rose-400 to-blue-500 bg-clip-text text-5xl font-extrabold leading-14 tracking-tight text-transparent sm:text-5xl sm:leading-14 md:text-6xl md:leading-18">
             {title}
@@ -32,7 +32,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
               className="block w-full rounded-md border border-gray-300 bg-white px-4 py-2 text-gray-900 focus:border-violet-400 focus:ring-violet-300 dark:border-gray-900 dark:bg-gray-800 dark:text-gray-100"
             />
             <svg
-              className="absolute right-3 top-3 h-5 w-5 text-gray-400 dark:text-gray-300"
+              className="absolute right-3 top-3 h-5 w-5 text-gray-500 dark:text-gray-300"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -56,7 +56,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
                 <article className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
                   <dl>
                     <dt className="sr-only">Published on</dt>
-                    <dd className="text-base font-medium leading-6 text-gray-600 dark:text-gray-300">
+                    <dd className="text-base font-medium leading-6 text-gray-700 dark:text-gray-300">
                       <time dateTime={date}>{formatDate(date)}</time>
                     </dd>
                   </dl>
@@ -76,7 +76,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
                         ))}
                       </div>
                     </div>
-                    <div className="prose max-w-none text-gray-500 dark:text-gray-400">
+                    <div className="prose max-w-none text-gray-600 dark:text-gray-400">
                       {summary}
                     </div>
                   </div>

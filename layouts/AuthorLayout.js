@@ -8,7 +8,7 @@ export default function AuthorLayout({ children, frontMatter }) {
   return (
     <>
       <PageSEO title={`About - ${name}`} description={`About me - ${name}`} />
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
+      <div className="divide-y divide-gray-300 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="bg-gradient-to-br from-rose-400 to-blue-500 bg-clip-text text-5xl font-extrabold leading-14 tracking-tight text-transparent sm:text-5xl sm:leading-14 md:text-6xl md:leading-18">
             About Me
@@ -23,11 +23,11 @@ export default function AuthorLayout({ children, frontMatter }) {
               height="300px"
               className="h-48 w-48 rounded-full"
             />
-            <h3 className="bg-gradient-to-br from-rose-400 to-blue-500 bg-clip-text pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight text-transparent">
+            <h3 className="bg-gradient-to-br from-rose-400 to-blue-500 bg-clip-text pt-4 pb-2 text-3xl font-bold leading-8 tracking-tight text-transparent">
               {name}
             </h3>
-            <div className="text-gray-500 dark:text-gray-400">{occupation}</div>
-            <div className="text-gray-500 dark:text-gray-400">{company}</div>
+            <div className="text-gray-500 dark:text-gray-500">{occupation}</div>
+            {/* <div className="text-gray-500 dark:text-gray-400">{company}</div> */}
             <div className="flex space-x-3 pt-6">
               <SocialIcon kind="mail" href={`mailto:${email}`} />
               <SocialIcon kind="github" href={github} />
