@@ -5,7 +5,7 @@ const siteMetadata = {
   description: 'Welcome to my developer blog, created with Next.js & Tailwind.css',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://devfolio-next-js.vercel.app/',
+  siteUrl: 'https://www.jorge-perez.dev/',
   siteRepo: '',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/about.jpg',
