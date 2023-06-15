@@ -32,7 +32,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
               className="block w-full rounded-md border border-gray-300 bg-white px-4 py-2 text-gray-900 focus:border-violet-400 focus:ring-violet-300 dark:border-gray-900 dark:bg-gray-800 dark:text-gray-100"
             />
             <svg
-              className="absolute right-3 top-3 h-5 w-5 text-gray-500 dark:text-gray-300"
+              className="absolute right-3 top-3 h-5 w-5 text-gray-400 dark:text-gray-300"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -62,7 +62,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
                   </dl>
                   <div className="space-y-3 xl:col-span-3">
                     <div>
-                      <h3 className="text-3xl font-bold leading-8 tracking-tight">
+                      <h3 className="text-3xl font-bold leading-9 tracking-tight">
                         <Link
                           href={`/blog/${slug}`}
                           className="bg-gradient-to-br from-rose-400 to-blue-400 bg-clip-text text-transparent"

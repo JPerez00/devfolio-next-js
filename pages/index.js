@@ -64,7 +64,7 @@ export default function Home({ posts }) {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div>
-                          <h2 className="text-3xl font-bold leading-8 tracking-tight">
+                          <h2 className="text-3xl font-bold leading-9 tracking-tight">
                             <Link
                               href={`/blog/${slug}`}
                               className="bg-gradient-to-br from-rose-400 to-blue-500 bg-clip-text text-transparent"

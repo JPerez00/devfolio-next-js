@@ -69,7 +69,7 @@ const MobileNav = () => {
             <div key={link.title} className="px-12 py-6">
               <Link
                 href={link.href}
-                className="bg-gradient-to-br from-rose-400 to-blue-400 bg-clip-text text-4xl font-bold tracking-widest text-transparent"
+                className="bg-gradient-to-br from-rose-500 to-blue-400 bg-clip-text text-4xl font-bold tracking-widest text-transparent"
                 onClick={onToggleNav}
               >
                 {link.title}
