@@ -6,6 +6,12 @@ const projectsData = [
     href: 'https://www.google.com',
   },
   {
+    title: 'JP Themes - Landing Page',
+    description: `My main website for content creation, blogging, photo gallery and newsletter hub for my filmmaking & photography projects. Created with Ghost CMS, Node.js & hosted in Digital Ocean.`,
+    imgSrc: '/static/images/projects/themes-landing.png',
+    href: '/blog/the-time-machine',
+  },
+  {
     title: 'Main Personal Site - Ghost CMS',
     description: `My main website for content creation, blogging, photo gallery and newsletter hub for my filmmaking & photography projects. Created with Ghost CMS, Node.js & hosted in Digital Ocean.`,
     imgSrc: '/static/images/projects/ghost-cms.png',
@@ -39,13 +45,13 @@ const projectsData = [
     title: 'TaskMaster - Flutter App',
     description: `Ported my working iOS app to flutter. A simple To-do list, works on both iOS & Android phones. Created with Flutter & Dart.`,
     imgSrc: '/static/images/projects/flutter-app.jpg',
-    href: '/',
+    href: '/blog/taskmaster-flutter-app',
   },
   {
     title: 'TaskMaster - iOS App',
     description: `Designed & developed a To-do List iOS App. Implemented with SwiftUI & Core Data. Compatible with dark mode as well. Works in the XCode iPhone emulator`,
     imgSrc: '/static/images/projects/ios-app.jpg',
-    href: '/',
+    href: '/blog/taskmaster-ios-app',
   },
 ]
 
