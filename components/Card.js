@@ -29,7 +29,7 @@ const Card = ({ title, description, imgSrc, href }) => (
           />
         ))}
       <div className="p-6">
-        <h2 className="mb-3 bg-gradient-to-br from-rose-400 to-blue-500 bg-clip-text text-3xl font-bold leading-8 tracking-tight text-transparent duration-300 ease-in-out hover:font-bold">
+        <h2 className="mb-3 bg-gradient-to-br from-rose-400 to-blue-500 bg-clip-text text-3xl font-bold leading-9 tracking-tight text-transparent duration-300 ease-in-out hover:font-bold">
           {href ? (
             <Link href={href} aria-label={`Link to ${title}`}>
               {title}
