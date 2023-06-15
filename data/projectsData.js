@@ -39,7 +39,7 @@ const projectsData = [
     title: 'Most Basic Website Ever',
     description: `This one sucks, not gonna lie. This was the first attempt to create a personal website, an online photo gallery for my photographs. Created with Bootstrap.`,
     imgSrc: '/static/images/projects/folio-thumb.png',
-    href: '/blog/the-time-machine',
+    href: '/blog/first-attempt-at-a-personal-website',
   },
   {
     title: 'TaskMaster - Flutter App',
