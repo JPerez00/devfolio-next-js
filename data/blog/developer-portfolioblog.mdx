@@ -1,0 +1,76 @@
+---
+title: Developer Portfolio/Blog
+date: '2023-06-15'
+tags: ['next.js', 'tailwind', 'portfolio', 'website']
+draft: false
+summary: This very site that you're on. Created with Next.js & Tailwind
+images: ['/static/images/blog/devfolio-page.jpg, /static/images/tailwind-blog-card.png']
+layout: PostLayout
+canonicalUrl: devfolio-nextjs-website
+authors: ['default']
+---
+
+![Post-header-devfolio-website](/static/images/blog/devfolio-page.jpg)
+
+After working on basic websites, I wanted to try to get into more advanced or useful frameworks, like **React.**
+
+And after researching which framework to use, I decided to create this developer portfolio website with [Next.js](https://nextjs.org/) & [Tailwind.css.](https://tailwindcss.com/)
+
+**Next.js** is a production framework for React, but after working on this personal project and testing new options, I think that **Next.js** is the future, here are some quick reasons why:
+
+- Server-side rendering & static generation is incredibly fast.
+- SEO friendly. If you have experience with CMS & plan to have a blog then you understand why this is a big deal.
+- Made to work out of the box with Typescript.
+- Routing functionality built-in.
+
+## The Development
+
+![tailwind blog card](/static/images/tailwind-blog-card.png)
+
+I started with one of the many free templates from the next.js website. This one is called "Tailwind CSS Blog", created by [Timothy](https://www.timlrx.com/), You can see his repo [here.](https://github.com/timlrx/tailwind-nextjs-starter-blog)
+
+<b>Next.js & Tailwind CSS</b> -<b>Pliny Project CLI Installation:</b>
+``` npm i -g @pliny/cli pliny new --template=starter-blog my-blog ```
+
+The installation will give you the option to choose from TS/JS (typescript or javascript).
+
+The project already has tailwind added. But if you rather create a react project with tailwind, you can do so here:
+
+<b>1. Create React App</b>
+``` npx create-react-app my-project cd my-project ```
+<b>2. Install Tailwind CSS</b>
+``` npm install -D tailwindcss npx tailwindcss init ```
+
+<b>3. Start your build process</b>
+``` npm run start ```
+
+## Template Features
+
+This template has [Front Matter](https://frontmatter.codes/) integrated, a headless CMS right in your code editor.
+
+That, combined with [MDX Integration](https://mdxjs.com/), which allows you to write JSX in markdown documents, gives you full CMS functionality and customization.
+
+Run the <b>compose.js</b> script with <b>Node.js</b> to create a new post:
+
+```
+node ./scripts/compose.js
+```
+
+The script will prompt you to fill in the required information. In total, these are the fields available:
+
+```
+title (required)
+date (required)
+tags (required, can be empty array)
+lastmod (optional)
+draft (optional)
+summary (optional)
+images (optional, if none provided defaults to socialBanner in siteMetadata config)
+authors (optional list which should correspond to the file names in `data/authors`. Uses `default` if none is specified)
+layout (optional list which should correspond to the file names in `data/layouts`)
+canonicalUrl (optional, canonical url for the post for SEO)
+```
+
+## Deploy
+
+The easiest way to deploy the template is to use the Vercel Platform. You can also push to your master brand and link your github account to your vercel account, and voilà!
