@@ -46,8 +46,8 @@ export default function Home({ posts }) {
             This particular project was created with <b>Next.js and Tailwind.css</b>, but you'll
             find more in the projects page. I chose to present this site in a blog format in order
             to{' '}
-            <span className="highlight-yellow">
-              combine my interest with useful skills. <b>Mergin Writing, Media & Code. </b>
+            <span className="highlight-yellow dark:text-gray-200">
+              <b>combine my interest with useful skills. Mergin Writing, Media & Code. </b>
             </span>
           </p>
         </div>

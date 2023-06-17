@@ -17,4 +17,4 @@ When most people fully transition between careers, they leave their past skills 
 
 So I dedicated myself to developing and combining my interest with valuable skills. That way, it’s much easier to be top 10 or 15 percentile at three or four things than it is to play a zero-sum game and be number one at something.
 
-In my case, <span className="custom-underline">this means merging **Writing, Media & Code**.</span> Hopefully, this provides a sort of "unfair advantage" that people who are a lot more technical/capable or even creative do not have.
+In my case, <span className="custom-underline">this means merging **Writing, Media & Code**.</span> Hopefully, this provides a sort of <b>"unfair advantage"</b> that people who are a lot more technical/capable or even creative do not have.

@@ -26,7 +26,7 @@ export default function AuthorLayout({ children, frontMatter }) {
             <h3 className="bg-gradient-to-br from-rose-400 to-blue-500 bg-clip-text pt-4 pb-2 text-3xl font-bold leading-8 tracking-tight text-transparent">
               {name}
             </h3>
-            <div className="text-gray-500 dark:text-gray-500">{occupation}</div>
+            <div className="text-gray-00 dark:text-gray-400">{occupation}</div>
             {/* <div className="text-gray-500 dark:text-gray-400">{company}</div> */}
             <div className="flex space-x-3 pt-6">
               <SocialIcon kind="mail" href={`mailto:${email}`} />
@@ -35,7 +35,9 @@ export default function AuthorLayout({ children, frontMatter }) {
               <SocialIcon kind="twitter" href={twitter} />
             </div>
           </div>
-          <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">{children}</div>
+          <div className="prose max-w-none pt-8 pb-8 text-gray-600 dark:prose-dark dark:text-gray-400 xl:col-span-2">
+            {children}
+          </div>
         </div>
       </div>
     </>
