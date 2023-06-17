@@ -1,7 +1,7 @@
 const projectsData = [
   {
     title: 'DevFolio',
-    description: `This very site that you're on. Full CMS functionality & MDX integration, created with Next.js & Tailwind.`,
+    description: `This very site that you're on. A developer DevFolio with full CMS functionality & MDX integration, created with Next.js & Tailwind.`,
     imgSrc: '/static/images/blog/devfolio-page.jpg',
     href: '/blog/developer-portfolioblog',
   },
@@ -32,8 +32,8 @@ const projectsData = [
   {
     title: 'My First Gumroad Digital Product - TreeLink Template',
     description: `A modular "Link in bio" template for your social media links. Created with Bootstrap 5.`,
-    imgSrc: '/static/images/projects/treelink.jpg',
-    href: 'https://jorgeperez.gumroad.com/l/Tree-link',
+    imgSrc: '/static/images/projects/treelink/treelink.jpg',
+    href: '/blog/treelink-a-modular-link-in-bio-theme',
   },
   {
     title: 'Most Basic Website Ever',
