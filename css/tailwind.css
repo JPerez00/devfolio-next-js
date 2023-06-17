@@ -25,9 +25,9 @@ input:-webkit-autofill:focus {
 }
 
 .custom-underline {
-  background: linear-gradient(to right, #fb7185, #3b82f6 60%);
+  background: linear-gradient(to right, #fb7185, #3b82f6);
   background-position: 0 100%;
-  background-size: 100% 1.5px;
+  background-size: 100% 2px;
   background-repeat: repeat-x;
 }
 
